@@ -754,7 +754,7 @@ body{
     color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-input:not(:placeholder-shown):valid {
+.modal-input:not(:focus):not(:placeholder-shown):valid{
     background-color: rgba(176, 232, 176, 0.535);
 }
 
@@ -820,6 +820,10 @@ body{
 
 .modal-close-icon{
     width: 18px;
+}
+
+.comment{
+    min-height: 93px;
 }
 
 /*--------------PORTFOLIO------------ */
