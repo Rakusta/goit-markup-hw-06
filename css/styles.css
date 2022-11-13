@@ -432,21 +432,20 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition-property:background-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function)
+    transition-timing-function: var(--timing-function), background-color 250ms var(--timing-function);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus{
+    color: var(--hero-text-color);
+    background-color: var(--button-acvive-color);
 }
 
 .subscribe-button-icon{
-    right: 28px;
-    transform: translateY(+50%);
+    position: relative;
+    transform: translateY(+30%);
     fill:var(--hero-text-color)
 }
-
-.submit-button:hover,
-.submit-button:focus{
-    color: var(--hero-text-color);
-    background-color: var(--button-acvive-color)
-}
-
 /*--------------WebStudio------------ */
 
 /*hero*/
